@@ -29,6 +29,19 @@ There are 11 independent variables. 2 of these are numeric : price and points. 7
 <br>
 We will take 2 different approaches : one for the numerical and categorical data, and a second approach for the textual data. The textual data will require natural language processing.
 
+### Some common pre-processing 
+We look for duplicate reviews, null values and, the target variable.
+
+There are initially 82628 reviews
+![](./Wine-Classifier-master/media/ss5.png)
+![](./Wine-Classifier-master/media/ss7.png)
+
+We eliminate duplicate reviews to bring it down to 77628.
+
+There are a total of 28 varieties of wine
+![](./Wine-Classifier-master/media/ss6.png)
+
+
 ## For numerical and categorical data.
 
 We discard the user_name of the reviewer as it should have no bearing on the type of wine
