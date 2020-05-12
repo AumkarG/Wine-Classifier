@@ -73,6 +73,8 @@ height="3.611111111111111in"}
 The model trained on solely review titles gives a peak accuracy of 95.6%. 
 
 
+![](./Wine-Classifier-master/media/ss2.png)
+
 While this gives a good accuracy, it is hardly a surprise as most of the review titles contain the name of the wine, and the accuracy also depends on how the taster labels the review. To implement a more generalized classifier which will not depend on the naming format of the taster, we look at the review descriptions. These are going to be a descriptor of the qualities of wine only and hence free from biases.
 
 ## NLP on review_description
