@@ -33,7 +33,7 @@ We will take 2 different approaches : one for the numerical and categorical data
 We look for duplicate reviews, null values and, the target variable.
 
 There are initially 82628 reviews
-![](./Wine-Classifier-master/media/ss5.png)
+![](./Wine-Classifier-master/media/ss8.png)
 ![](./Wine-Classifier-master/media/ss7.png)
 
 We eliminate duplicate reviews to bring it down to 77628.
