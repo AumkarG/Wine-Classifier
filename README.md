@@ -17,6 +17,11 @@
 •	winery - The winery that made the wine <br>
 •	variety - The type of grapes used to make the wine. 
 
+
+![](./media/Screenshot (324).png){width="6.5in"
+height="3.611111111111111in"}
+
+
 ### The aim is to predict the wine variety based on given review
 
 ## Approach
