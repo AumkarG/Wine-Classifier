@@ -18,7 +18,7 @@
 •	variety - The type of grapes used to make the wine. 
 
 
-![](./Wine-Classifier-master/media/Screenshot (324).png){width="6.5in"
+![](./Wine-Classifier-master/media/ss.png){width="6.5in"
 height="3.611111111111111in"}
 
 
