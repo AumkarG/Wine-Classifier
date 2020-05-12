@@ -57,10 +57,18 @@ We find that often, the review title contains the name of the wine. Analysis of 
 
 
 To convert the texts into values readable by the neural network, we perform tokenization. Each text word is replaced by a token. To ease our training and retain important pieces of info only, we set the vocabulary size at 10000. Words outside of this will be denoted by <OOV> or out of vocabulary. We then pad each sentence with zeroes so the input sentences are all of the same length,=.
-   
+  
+
+![](./Wine-Classifier-master/media/ss1.png){width="6.5in"
+height="4.611111111111111in"}
    
 Then I built the simple neural network, using word embeddings. I added the word embedding layer before the dense layer, as embeddings enable us to have vectorized representations of words and better represent relationships between words.
 I did not use RNNS or LSTMs since a few keywords/ bag of words approach suffices for this problem and the sequence of the data does not matter much.
+
+
+![](./Wine-Classifier-master/media/ss2.png){width="6.5in"
+height="3.611111111111111in"}
+   
 
 The model trained on solely review titles gives a peak accuracy of 95.6%. 
 
