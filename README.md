@@ -21,6 +21,7 @@
 ![](./Wine-Classifier-master/media/ss.png){width="6.5in"
 height="3.611111111111111in"}
 
+![Drag Racing](./Wine-Classifier-master/media/ss.png)
 
 ### The aim is to predict the wine variety based on given review
 
