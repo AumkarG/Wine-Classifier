@@ -95,3 +95,6 @@ After changing case, removing non-alpha numeric symbols and eliminatings stopwor
 <img src="./Wine-Classifier-master/media/download2.png" width="40%">.
 <img src="./Wine-Classifier-master/media/download3.png" width="40%">.
 
+Plotting the word cloud gives us significant insights about the descriptions of each wine, helping us pick out certain words or combinations of words that are specific to a particular wine variety. This can also help us spot some more high frequency neutral word like "wine", "drink", "now" which do not really point to any particular variety and simply add noise to the data. These words can be removed.
+
+​
