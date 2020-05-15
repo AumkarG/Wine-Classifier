@@ -92,7 +92,6 @@ There are a total of  77628 reviews.
 The initial cleaning a pre-processing steps remain the same.
 After changing case, removing non-alpha numeric symbols and eliminatings stopwords, I plotted word clouds of the data to get some insights into it.
 <img src="./Wine-Classifier-master/media/download1.png" width="40%">.
-![](./Wine-Classifier-master/media/download1.png)
- <!-- .element height="50%" width="50%" -->
-![](./Wine-Classifier-master/media/download2.png)
-![](./Wine-Classifier-master/media/download3.png)
+<img src="./Wine-Classifier-master/media/download2.png" width="40%">.
+<img src="./Wine-Classifier-master/media/download3.png" width="40%">.
+
