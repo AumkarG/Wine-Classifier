@@ -90,4 +90,8 @@ While this gives a good accuracy, it is hardly a surprise as most of the review 
 There are a total of  77628 reviews.
 
 The initial cleaning a pre-processing steps remain the same.
+After changing case, removing non-alpha numeric symbols and eliminatings stopwords, I plotted word clouds of the data to get some insights into it.
 
+![](./Wine-Classifier-master/media/download1.png)
+![](./Wine-Classifier-master/media/download2.png)
+![](./Wine-Classifier-master/media/download3.png)
