@@ -103,9 +103,9 @@ Plotting the word cloud gives us significant insights about the descriptions of 
 
 We use a word-embeddings approach to build a sequential neural network. First, we tokenize and pad the data. Then the neural network is built as follows :
 
-<img src="./Wine-Classifier-master/media/ss10.png" >.
-
 <img src="./Wine-Classifier-master/media/ss11.png" >.
+
+<img src="./Wine-Classifier-master/media/ss10.png" >.
 
 After 3 epochs, the training accuracy is 73%, while the validation accuracy is 65%. While the training accuracy was found the increase significantly by increasing the epochs, hitting 90% at 10 epochs, the validation accuracy decreases, indicating an overfit.
 Thus I kept the epochs at 3, which gave a peak validation accuracy of 65%
