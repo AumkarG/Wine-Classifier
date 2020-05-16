@@ -89,6 +89,7 @@ While this gives a good accuracy, it is hardly a surprise as most of the review 
 ## NLP on review_description
 There are a total of  77628 reviews.
 
+###   Pre-processing and EDA
 The initial cleaning a pre-processing steps remain the same.
 After changing case, removing non-alpha numeric symbols and eliminatings stopwords, I plotted word clouds of the data to get some insights into it.
 <img src="./Wine-Classifier-master/media/download1.png" width="40%">.
@@ -97,4 +98,8 @@ After changing case, removing non-alpha numeric symbols and eliminatings stopwor
 
 Plotting the word cloud gives us significant insights about the descriptions of each wine, helping us pick out certain words or combinations of words that are specific to a particular wine variety. This can also help us spot some more high frequency neutral word like "wine", "drink", "now" which do not really point to any particular variety and simply add noise to the data. These words can be removed.
 
+### Using word-embeddings :
+Validation Accuracy : 66%
+### Using count-vectorization :
+Validation Accuracy : 69%
 ​
