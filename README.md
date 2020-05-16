@@ -111,5 +111,7 @@ After 3 epochs, the training accuracy is 73%, while the validation accuracy is 6
 Thus I kept the epochs at 3, which gave a peak validation accuracy of 65%
 
 ### Using count-vectorization :
+The second technique I used was count-vectorization, where each word is assigned a vector based on its frequency in the corpus. It gave a slightly higher accuracy of 69%, compared to the word embeddings approach, however has more trainable parameters.
+
 Validation Accuracy : 69%
 ​
