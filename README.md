@@ -92,6 +92,7 @@ There are a total of  77628 reviews.
 ###   Pre-processing and EDA
 The initial cleaning a pre-processing steps remain the same.
 After changing case, removing non-alpha numeric symbols and eliminatings stopwords, I plotted word clouds of the data to get some insights into it.
+
 <img src="./Wine-Classifier-master/media/download (1).png" width="40%">.
 <img src="./Wine-Classifier-master/media/download (2).png" width="40%">.
 <img src="./Wine-Classifier-master/media/download (3).png" width="40%">.
@@ -99,7 +100,16 @@ After changing case, removing non-alpha numeric symbols and eliminatings stopwor
 Plotting the word cloud gives us significant insights about the descriptions of each wine, helping us pick out certain words or combinations of words that are specific to a particular wine variety. This can also help us spot some more high frequency neutral word like "wine", "drink", "now" which do not really point to any particular variety and simply add noise to the data. These words can be removed.
 
 ### Using word-embeddings :
-Validation Accuracy : 66%
+
+We use a word-embeddings approach to build a sequential neural network. First, we tokenize and pad the data. Then the neural network is built as follows :
+
+<img src="./Wine-Classifier-master/media/ss10.png" width="40%">.
+
+<img src="./Wine-Classifier-master/media/ss11.png" width="40%">.
+
+After 3 epochs, the training accuracy is 73%, while the validation accuracy is 65%. While the training accuracy was found the increase significantly by increasing the epochs, hitting 90% at 10 epochs, the validation accuracy decreases, indicating an overfit.
+Thus I kept the epochs at 3, which gave a peak validation accuracy of 65%
+
 ### Using count-vectorization :
 Validation Accuracy : 69%
 ​
